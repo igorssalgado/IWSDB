@@ -1,0 +1,1287 @@
+$RESOURCE
+
+ADCUAPSP2#ZANLENG 4
+
+ADCUAPSP3#IBPKF01 1 "CHG0073786"
+
+
+ADCUAPSP3#IBPKF02 1 "CHG0073786"
+
+
+ADCUAPSP3#IBPKF03 1 "CHG0073786"
+
+
+ADCUAPSP3#IBPKF04 1 "CHG0073786"
+
+
+ADCUAPSP3#IBPKF05 1 "CHG0073786"
+
+
+ADCUAPSP3#IBPKF06 1 "CHG0073786"
+
+
+ADCUAPSP3#IBPKF41 1 "CHG0088822"
+
+
+ADCUAPSP3#IBPKF42 1 "CHG0088822"
+
+
+ADCUAPSP3#IBPKF43 1 "CHG0088822"
+
+
+ADCUAPSP3#IBPKF44 1 "CHG0088822"
+
+
+ADCUAPSP3#IBPKF45 1 "CHG0088822"
+
+
+ADCUAPSP3#IBPKF46 1 "CHG0088822"
+
+
+ADCUAPSP3#IBPOPT 12 "RITM0166082 > RITM0166478 > RITM0176367 > CHG0111244"
+
+
+ADCUAPSP3#IBPOPT40 1 "CHG0088822"
+
+
+ADCUAPSP3#IBPOPTZS 12 "CHG0111244"
+
+
+ADCUAPSP3#IBPTAB40 1 "CHG0088822"
+
+
+ADCUAPSP3#IBPTABLE 1 "CHG0070683"
+
+
+ADCUAPSP3#ZANMAPS1 2 "This will allow zanm3*e to run 2 jobs"
+
+
+ADCUAPSP3#ZANMJOB1 1 "Allow 1 ZANM*E jobs to run at the same time"
+
+
+ADCUAPSP3#ZANMJOBS 3 "Allow 3 ZANM* jobs to run at the same time"
+
+
+ADCUAPSP3#ZANMSJOB 1 "CHG0045724 "
+
+
+ADCUAPSP3#ZANSRES 1 "Resource created by CHG0050962, to avoid ZANS601 and ZANS800 to execute on the same time."
+
+
+ADCUAPSP3#ZFNEJOBS 10 "Allow 10 jobs FNE APS to run - ZANFN* (CHG0071093)"
+
+
+ADCULAPSDB2P#IBPCONF 1
+
+ADCULAPSDB2P#IBPFCST 1
+
+ADCULAPSDB2P#IBPKF41 1
+
+ADCULAPSDB2P#IBPKF42 1
+
+ADCULAPSDB2P#IBPKF43 1
+
+ADCULAPSDB2P#IBPKF44 1
+
+ADCULAPSDB2P#IBPKF45 1
+
+ADCULAPSDB2P#IBPKF46 1
+
+ADCULAPSDB2P#IBPOPT 20 "RITM0325651,CHG0126977"
+
+
+ADCULAPSDB2P#IBPOPTZS 20 "CHG0118163 REQ1374854"
+
+
+ADCULAPSDB2P#IBPTAB40 1
+
+ADCULSFGP1#MFTANA 1 "CHG0146287"
+
+
+ADCULSFGP1#ZBBPACCP 1 "avoid job ZBBPACCP running two instances at the same time RITM0193362"
+
+
+ADCULSFGP1#ZBBPPYRL 1 "avoid job ZBBPPYRL running two instances at the same time RITM0398439"
+
+
+ADCULSFGP1#ZHUBPOUT 1 "allow 1 cycle for each time RITM0218225"
+
+
+ADCULSFGP1#ZNPDASLO 1 "avoid job ZNPDASLO running two instances at the same time RITM0249426"
+
+
+ADCULSFGP2#ADOBE 1 "Prevents ZADOBEOU to run duplicated CHG0148432"
+
+
+ADCULSFGP2#MFTJOB01 1 "avoid job ZQGBPMLO running at the same time RITM0234165"
+
+
+ADCULSFGP2#ZHUBPOUT 1 "allow 1 cycle for each time RITM0219303"
+
+
+ADCULSFGP2#ZNTRUSOU 1 "Prevents ZNTRUSOU run duplicated - RITM0402097"
+
+
+ADCULSFGP2#ZQIMXPOO 1 "allow job ZQIMXPOO once at a time"
+
+
+APDSAPR3-PL#EWAYBILL 1 "Asia Resource - RITM0314131"
+
+
+APDSAPR3-PL#ZAPAS001 1 "Resource for job ZAPAS001"
+
+
+APDSAPR3-PL#ZCAIILPR 1 "RITM0268329"
+
+
+APDSAPR3-PL#ZPGI0001 1 "Prevent ZPGI* jobs running together"
+
+
+APDSAPR3-PL#ZPRODCNF 1 "Asia Resource - CHG0140173"
+
+
+APDSAPR3-PL#ZSDWM03 1 "CHG0124824"
+
+
+APPSAPR3#APOALOC1 50
+
+APPSAPR3#APOBOP 58
+
+APPSAPR3#APOQCR21 1
+
+APPSAPR3#APORECON 12
+
+APPSAPR3#DELSLORD 4 "Only 4 delete SLSORDS can run at the same time"
+
+
+APPSAPR3#IBP2APO 1
+
+APPSAPR3#ZNDPZOO 1 "resource for jobs ZNDPZOO*"
+
+
+APPSAPR3#ZNOCJOBS 4
+
+APPSAPR3#ZNOSJOBS 2 "Allows only ZNOS* jobs to execute at the same time - change CHG0034589 (from 4 to 8) CHG0052244 (from 4 to 2)"
+
+
+GQPSAPR3#ZQIMD002 1 "avoid both GQP jobs ZQIM030 and ZQIM050 running same time RITM0262109"
+
+
+HRPRPACI#ZSAGE1 1 "Allow just one job to run on ZSAGE"
+
+
+MHWM001P#MANHASN 1 "Prevent  this repeater from running at the same time"
+
+
+MHWM001P#MANHPCK 1 "Prevent  this repeater from running at the same time"
+
+
+MHWM001P#MANHXRF 1 "Prevent  this repeater from running at the same time"
+
+
+MHWM001P#MANINV 1 "Prevent  this repeater from running at the same time"
+
+
+MHWM001P#MANPIX 1 "Prevent  this repeater from running at the same time"
+
+
+MHWM001P#MANSRL 1 "Prevent  this repeater from running at the same time"
+
+
+MHWM001P#PSDOTAC 1 "Prevent  this repeater from running at the same time"
+
+
+NARBW-PL#ZBNACRC 1 "Prevent ZBNACRC1 and ZBNACRC2 running at the same time"
+
+
+NARBW-PL#ZBNMXSPD 1
+
+NPDSAPR3#APOAVL1 1 "Only 1 ZNOR@M can run at a time"
+
+
+NPDSAPR3#APOMATL1 2 "Only 2 ZNOF@M can run at a time"
+
+
+NPDSAPR3#APOMATL2 2 "Only 2 ZNOF@M can run at a time"
+
+
+NPDSAPR3#APOPOR1 1 "Only 2 ZNOF@P can run at a time"
+
+
+NPDSAPR3#APORES1 1 "Only 2 ZNOF@R can run at a time"
+
+
+NPDSAPR3#APOSLS1 1 "Only 2 ZNOF@O can run at a time"
+
+
+NPDSAPR3#APOSTK1 1 "Only 2 ZNOF@S can run at a time"
+
+
+NPDSAPR3#ASNMAR1 1
+
+NPDSAPR3#ASNMONIT 1 "Prevents ZMFG_IN_ASN_MONITOR run duplicated - RITM0400923"
+
+
+NPDSAPR3#BILLBACK 3 "To prevent  ZVNBILL jobs and DBABKWK1 from running together"
+
+
+NPDSAPR3#BILLJOBS 1 "Number of ZVNBILL jobs that can run at the same time"
+
+
+NPDSAPR3#BKFLUSH 1 "CHG0038571"
+
+
+NPDSAPR3#CHADORD1 1 "allow a single execution for jobs CHG0139595"
+
+
+NPDSAPR3#CO06 1 "Makes the CO06 jobs run one at a time"
+
+
+NPDSAPR3#CRATEJOB 1 "To prevent ZMNSC### crate count jobs from running together"
+
+
+NPDSAPR3#CRCNTJOB 1 "To prevent ZMNCR### crate count jobs from running together"
+
+
+NPDSAPR3#CSGRUN 1
+
+NPDSAPR3#CUSTJOBS 1 "To prevent ZFNCUSTI & ZFNCUSTN from running at the same time"
+
+
+NPDSAPR3#DDLDELD 1 "Preventes ZDELDIST run with ZDTF397"
+
+
+NPDSAPR3#DDLF044A 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF048B 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF074C 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF074D 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF076D 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF103E 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF105F 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF139A 1 "Prevent ZCNSC105x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF139G 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF306A 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF315A 1
+
+NPDSAPR3#DDLF316X 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF317X 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF318V 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLF319H 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLJ414 1
+
+NPDSAPR3#DDLJ421 1 "Prevents daily runs of ZVNR421A from running with other 421 DDLs"
+
+
+NPDSAPR3#DDLJ421A 1 "Prevents daily runs of ZVNR421A from running with other 421 DDLs"
+
+
+NPDSAPR3#DDLJ421B 1 "Prevents daily runs of ZVNR421B from running with other 421 DDLs"
+
+
+NPDSAPR3#DDLJ422A 1 "Prevents daily runs of ZVNR422A from running at the same time"
+
+
+NPDSAPR3#DDLJ422B 1 "Prevents daily runs of ZVNR422B from running at the same time"
+
+
+NPDSAPR3#DDLJ422C 1 "Prevents daily runs of ZVNR422C from running at the same time"
+
+
+NPDSAPR3#DDLJ422D 1 "Prevents daily runs of ZVNR422D from running at the same time"
+
+
+NPDSAPR3#DDLJ422E 1 "Prevents daily runs of ZVNR422E from running at the same time"
+
+
+NPDSAPR3#DDLJ423 1 "Prevents daily runs of *423 from running at the same time"
+
+
+NPDSAPR3#DDLJ433 1
+
+NPDSAPR3#DDLJ434 1
+
+NPDSAPR3#DDLJ435 1
+
+NPDSAPR3#DDLJ436 1
+
+NPDSAPR3#DDLJ437 1
+
+NPDSAPR3#DDLJ440 1
+
+NPDSAPR3#DDLJ441 1
+
+NPDSAPR3#DDLJ447 1
+
+NPDSAPR3#DDLJ448 1
+
+NPDSAPR3#DDLJB044 1 "Prevents daily runs of ZVNF044D from running at the same time"
+
+
+NPDSAPR3#DDLJB045 1 "Prevents daily runs of ZVNF045D from running at the same time"
+
+
+NPDSAPR3#DDLJB046 1 "Prevents daily runs of ZVNF046D from running at the same time"
+
+
+NPDSAPR3#DDLJB048 1 "Prevents daily runs of ZVNF048D from running at the same time"
+
+
+NPDSAPR3#DDLJB074 1 "Prevents daily runs of ZVNF074D from running at the same time"
+
+
+NPDSAPR3#DDLJB076 1 "Prevents daily runs of ZVNF076D from running at the same time"
+
+
+NPDSAPR3#DDLJB103 1 "Prevents daily runs of ZVNF103D from running at the same time"
+
+
+NPDSAPR3#DDLJB105 1 "Prevents daily runs of ZVNF105D from running at the same time"
+
+
+NPDSAPR3#DDLJB139 1 "Prevents daily runs of ZVNF139D from running at the same time"
+
+
+NPDSAPR3#DDLJB182 1 "Prevents daily runs of ZVNF182D from running at the same time"
+
+
+NPDSAPR3#DDLJB261 1 "RITM0199318"
+
+
+NPDSAPR3#DDLJB262 1 "RITM0199318"
+
+
+NPDSAPR3#DDLJB263 1 "RITM0199318"
+
+
+NPDSAPR3#DDLJB265 1 "Prevents some Deliver Due List jobs from running with 265"
+
+
+NPDSAPR3#DDLJB266 1 "Prevents some Deliver Due List jobs from running with 266"
+
+
+NPDSAPR3#DDLJB267 1 "F267"
+
+
+NPDSAPR3#DDLJB297 1 "Prevents some Deliver Due List jobs from running with 297"
+
+
+NPDSAPR3#DDLJB301 1
+
+NPDSAPR3#DDLJB302 1
+
+NPDSAPR3#DDLJB303 1
+
+NPDSAPR3#DDLJB304 1
+
+NPDSAPR3#DDLJB305 1
+
+NPDSAPR3#DDLJB306 1 "Prevents daily runs of ZVNF306D from running at the same time"
+
+
+NPDSAPR3#DDLJB307 1
+
+NPDSAPR3#DDLJB308 1
+
+NPDSAPR3#DDLJB309 1
+
+NPDSAPR3#DDLJB311 1
+
+NPDSAPR3#DDLJB314 2 "\" \""
+
+
+NPDSAPR3#DDLJB315 1
+
+NPDSAPR3#DDLJB316 1 "Prevents daily runs of ZVNF316D from running at the same time"
+
+
+NPDSAPR3#DDLJB317 1 "Prevents daily runs of ZVNF317D from running at the same time"
+
+
+NPDSAPR3#DDLJB318 1 "Prevents daily runs of ZVNF318D from running at the same time"
+
+
+NPDSAPR3#DDLJB319 1 "Prevents daily runs of ZVNF319D from running at the same time"
+
+
+NPDSAPR3#DDLJB324 1 "Prevents daily runs of ZVNF324D from running at the same time"
+
+
+NPDSAPR3#DDLJB325 1 "Prevents daily runs of ZVNF325D from running at the same time"
+
+
+NPDSAPR3#DDLJB326 1 "Prevents daily runs of ZVNF326D from running at the same time"
+
+
+NPDSAPR3#DDLJB327 1 "Prevents daily runs of ZVNF327D from running at the same time"
+
+
+NPDSAPR3#DDLJB328 1 "Prevents daily runs of ZVNF*D from running at the same time"
+
+
+NPDSAPR3#DDLJB329 1 "Prevents daily runs of ZVNF*D from running at the same time"
+
+
+NPDSAPR3#DDLJB341 1 "Prevens DDL job from running at the same time"
+
+
+NPDSAPR3#DDLJB393 1 "Prevents daily runs of ZVNF393D from running at the same time"
+
+
+NPDSAPR3#DDLJB397 1 "Prevents daily runs of ZVNF397D from running at the same time"
+
+
+NPDSAPR3#DDLJB412 1 "Prevents DDL jobs from running at the same time for R412"
+
+
+NPDSAPR3#DDLJB414 1 "Prevents DDL jobs from running at the same time for R414"
+
+
+NPDSAPR3#DDLJB415 1 "Prevents DDL jobs from running at the same time for R415"
+
+
+NPDSAPR3#DDLJB416 1 "Prevents DDL jobs from running at the same time for R416"
+
+
+NPDSAPR3#DDLJB417 1 "Prevents DDL jobs from running at the same time for R417"
+
+
+NPDSAPR3#DDLJB418 1 "Prevents DDL jobs from running at the same time for R418"
+
+
+NPDSAPR3#DDLJB419 1 "Prevents DDL jobs from running at the same time for R419"
+
+
+NPDSAPR3#DDLJB420 1 "Prevents DDL jobs from running at the same time for R430"
+
+
+NPDSAPR3#DDLJB421 1 "Prevents DDL jobs from running at the same time for R421"
+
+
+NPDSAPR3#DDLJB422 1 "Prevents DDL jobs from running at the same time for R422"
+
+
+NPDSAPR3#DDLJB423 1 "Prevents daily runs of *423 from running at the same time"
+
+
+NPDSAPR3#DDLJB427 1 "Prevents DDL job from running at the same time for R427"
+
+
+NPDSAPR3#DDLJB428 1 "Prevents DDL jobs from running at the same time for R428"
+
+
+NPDSAPR3#DDLJB430 1 "Prevents DDL jobs from running at the same time for R430"
+
+
+NPDSAPR3#DDLJB431 1 "Prevents DDL jobs from running at the same time for R431"
+
+
+NPDSAPR3#DDLJB432 1 "Prevents DDL jobs from running at the same time for R432"
+
+
+NPDSAPR3#DDLJB433 1 "Prevents DDL jobs from running at the same time for R433"
+
+
+NPDSAPR3#DDLJB434 1 "Prevents DDL jobs from running at the same time for R434"
+
+
+NPDSAPR3#DDLJB435 1 "Prevents DDL jobs from running at the same time for R435"
+
+
+NPDSAPR3#DDLJB436 1 "Prevents DDL jobs from running at the same time for R436"
+
+
+NPDSAPR3#DDLJB437 1 "Prevents DDL jobs from running at the same time for R437"
+
+
+NPDSAPR3#DDLJB439 1 "Prevents DDL jobs from running at the same time for R439"
+
+
+NPDSAPR3#DDLJB440 1 "Prevents DDL jobs from running at the same time for R440"
+
+
+NPDSAPR3#DDLJB441 1 "Prevents DDL jobs from running at the same time for R441"
+
+
+NPDSAPR3#DDLJB442 1 "Prevents DDL jobs from running at the same time for R442"
+
+
+NPDSAPR3#DDLJB443 1 "Prevents DDL jobs from running at the same time for R443"
+
+
+NPDSAPR3#DDLJB444 1 "Prevents daily runs of ZVNF444D from running at the same time"
+
+
+NPDSAPR3#DDLJB445 1 "Prevents DDL jobs from running at the same time for R445"
+
+
+NPDSAPR3#DDLJB446 1 "Prevents DDL jobs from running at the same time for R446"
+
+
+NPDSAPR3#DDLJB447 1 "Prevents DDL jobs from running at the same time for R447"
+
+
+NPDSAPR3#DDLJB448 1 "Prevents DDL jobs from running at the same time for R448"
+
+
+NPDSAPR3#DDLJB450 1 "Prevents DDL jobs from running at the same time for R450"
+
+
+NPDSAPR3#DDLJB451 1 "Prevents DDL job from running at the same time for R451"
+
+
+NPDSAPR3#DDLJB452 1 "Prevents some Deliver Due List jobs from running with 452"
+
+
+NPDSAPR3#DDLJB453 1 "Prevents DDL job from running at the same time for R453"
+
+
+NPDSAPR3#DDLJB454 1
+
+NPDSAPR3#DDLJB455 1
+
+NPDSAPR3#DDLJB456 1 "Prevents DDL jobs from running at the same time for R456"
+
+
+NPDSAPR3#DDLJB457 1 "Prevents DDL jobs from running at the same time for R457"
+
+
+NPDSAPR3#DDLJB458 1 "Prevents DDL jobs from running at the same time for R458"
+
+
+NPDSAPR3#DDLJB460 1 "Prevents DDL jobs from running at the same time for R460"
+
+
+NPDSAPR3#DDLJB461 1
+
+NPDSAPR3#DDLJB606 1 "Prevents DDL's from running at the sametime for location R606"
+
+
+NPDSAPR3#DDLJB607 1 "Prevents DDL's from running at the sametime for location R607"
+
+
+NPDSAPR3#DDLJB608 1 "Prevents daily runs of ZVNR608D from running at the same time"
+
+
+NPDSAPR3#DDLJB609 1 "Prevents DDL's from running at the sametime for lactions R609"
+
+
+NPDSAPR3#DDLJB610 1 "Prevents daily runs of ZVNR610D from running at the same time"
+
+
+NPDSAPR3#DDLJB611 1 "Prevents DDL's from running at the sametime for location R611"
+
+
+NPDSAPR3#DDLJB612 1 "Prevents DDL jobs from running at the same time for R612"
+
+
+NPDSAPR3#DDLJB613 1 "Prevents DDL jobs from running at the same time for R613"
+
+
+NPDSAPR3#DDLJB614 1 "Prevents DDL jobs from running at the same time for R614"
+
+
+NPDSAPR3#DDLJB631 1 "Prevents DDL jobs from running at the same time for R613"
+
+
+NPDSAPR3#DDLJB632 1 "Prevents DDL's from running at the sametime for lactions R632"
+
+
+NPDSAPR3#DDLJBM24 2
+
+NPDSAPR3#DDLJBM26 2
+
+NPDSAPR3#DDLJBM29 1
+
+NPDSAPR3#DDLJR103 1 "Prevents DDL job from running at the same time for R103"
+
+
+NPDSAPR3#DDLR414U 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR415I 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR416S 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR417R 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR418J 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR419K 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR420L 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR421M 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR422N 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR423T 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR427O 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR428P 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR430W 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR437L 1 "Prevent ZCNSC28x job run at the same time as the ZQR*L job."
+
+
+NPDSAPR3#DDLR450P 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR451O 1 "Prevent ZCNSC451x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR4520 1 "Prevents some Deliver Due List jobs from running with 4520"
+
+
+NPDSAPR3#DDLR453O 1 "Prevent ZCNSC453x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR454O 1
+
+NPDSAPR3#DDLR455J 1
+
+NPDSAPR3#DDLR456J 1 "Prevent *456* job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR457R 1 "\" \""
+
+
+NPDSAPR3#DDLR458L 1 "Prevent *458* job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR460S 1 "Prevent ZCNSC460 job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#DDLR461K 1
+
+NPDSAPR3#DDLSTJOB 29 "Prevents some Deliver Due List jobs from running with ZVNSC017"
+
+
+NPDSAPR3#DDL_FUS 1 "This will prevent DDL jobs from Fusion migration to run together "
+
+
+NPDSAPR3#DELPRIOR 1 "CHG0127064"
+
+
+NPDSAPR3#DELTAFEE 1 "avoid job DELTA_FEED running at the same time CHG0131091"
+
+
+NPDSAPR3#DLJB423E 1 "Prevents DDL jobs from running at the same time for R423E"
+
+
+NPDSAPR3#DLJB451E 1 "Prevents DDL jobs from running at the same time for R451E"
+
+
+NPDSAPR3#DLJB453E 1 "Prevents DDL jobs from running at the same time for R453E"
+
+
+NPDSAPR3#DLJB455E 1
+
+NPDSAPR3#DLJB456E 1 "Prevents DDL jobs from running at the same time for R456E"
+
+
+NPDSAPR3#EPIC 1 "PRVENTS RUNNING 2 ZNEPICSS AT THE SAME TIME"
+
+
+NPDSAPR3#F044 1 "Prevent DLL F044 to run at sametime"
+
+
+NPDSAPR3#FINDLAY 1 "This is going to prevent scehdules NMFGFID18 and 18B running together"
+
+
+NPDSAPR3#FSCM_001 1 "avoid job Z_POSTPROCESSING_DISP_P2P running at the same time"
+
+
+NPDSAPR3#INVFEED1 1 "allow a single program RSEOUT00 running each time CHG0131339"
+
+
+NPDSAPR3#IRISJOBS 1 "To prevent ZFNIRISR & ZFNIRISN from running at the same time"
+
+
+NPDSAPR3#MH02 50 "condition for jobs ZNMFMH02_Mxxx and ZNSCMH02"
+
+
+NPDSAPR3#MH04M008 1 "Resource for job ZNMFMH04_M008 to run only one at a time"
+
+
+NPDSAPR3#MH04M097 1 "RITM0306355"
+
+
+NPDSAPR3#MP05M003 1 "Resource to prevent two instances of the job ZNMFMP05_M003 to run at the same time"
+
+
+NPDSAPR3#MP05M004 1 "Resource to prevent concurrent executions of jobs ZNMFMP05_M004 and ZNMFMP05_M004A"
+
+
+NPDSAPR3#MP05M006 1 "avoid twice jobs ZNMFMP05_M006 running at the same time"
+
+
+NPDSAPR3#MP05M097 1
+
+NPDSAPR3#MP11M006 1 "avoid twice jobs ZNMFMP11_M006 running at the same time"
+
+
+NPDSAPR3#MXAUTCON 1 "this resource runs job ZMXSDAUTCON"
+
+
+NPDSAPR3#MXFEEDRM 1 "Prevents Z_KAD_MX_INVENTORY_FEED running at the same time CHG0129658"
+
+
+NPDSAPR3#NAR18B 1 "allows single exec on job ZFNAR18B"
+
+
+NPDSAPR3#NOEGOODS 1
+
+NPDSAPR3#PASSPORT 2 "Cannot run w/ jobs ZFNBFINV & ZFNRECTM & ZFPAR002"
+
+
+NPDSAPR3#PENSKE64 10 "CHG0124537"
+
+
+NPDSAPR3#POLARIS1 1 "Allow one job running and using pgm RMSERI70"
+
+
+NPDSAPR3#PP01M003 1 "Makes only one instance of the job ZNMFPP01_M003 to run at a time"
+
+
+NPDSAPR3#PP01M004 1 "Makes only one instance of the job ZNMFPP01_M004 to run at a time"
+
+
+NPDSAPR3#PP01M008 1 "Makes only one instance of the job ZNMFPP01_M008 to run at a time"
+
+
+NPDSAPR3#PP01M022 1 "Makes only one instance of the job ZNMFPP01_M022 to run at a time"
+
+
+NPDSAPR3#PP01M023 1 "CHG0147562"
+
+
+NPDSAPR3#PP01M039 1 "Makes only one instance of the job ZNMFPP01_M039 to run at a time"
+
+
+NPDSAPR3#PP01M086 1 "Makes only one instance of the job ZNMFPP01_M086 to run at a time"
+
+
+NPDSAPR3#PP01M097 1 "Makes only one instance of the job ZNMFPP01_M097 to run at a time"
+
+
+NPDSAPR3#PP01M314 1 "Makes only one instance of the job ZNMFPP01_M314 to run at a time"
+
+
+NPDSAPR3#PP01M317 1 "Makes only one instance of the job ZNMFPP01_M317 to run at a time"
+
+
+NPDSAPR3#PP01ML20 1 "RITM0166197"
+
+
+NPDSAPR3#PP01ML21 1 "Makes only one instance of the job ZNMFPP01_ML21 to run at a time"
+
+
+NPDSAPR3#PP23M006 1 "run a single job per time CHG0131662"
+
+
+NPDSAPR3#PR110 1 "Prevents all the ZNMFPR110_* jobs from running at the same time"
+
+
+NPDSAPR3#QM06M004 1 "RITM0306364"
+
+
+NPDSAPR3#QUALADJ1 1
+
+NPDSAPR3#QUALADJ2 1
+
+NPDSAPR3#QUALADJ3 1
+
+NPDSAPR3#RBDAPP01 1 "Fusion decomission"
+
+
+NPDSAPR3#RCNSC012 1 "prevents ZCNSC012 and ZCNS012B from running at same time"
+
+
+NPDSAPR3#RCNSC244 1 "Prevents ZCNSC244 from exec multiple instances at once"
+
+
+NPDSAPR3#REC1 1
+
+NPDSAPR3#REC2 1
+
+NPDSAPR3#REC3 1
+
+NPDSAPR3#REPSCAN1 1 "run job ZREP_SCAN_ALL once a time"
+
+
+NPDSAPR3#RES820A 1 "Prevents daily runs of ZNFI820A from running at the same time"
+
+
+NPDSAPR3#RESMPP03 1 "Polaris back flush PP03 processing"
+
+
+NPDSAPR3#RES_ZSD 1 "Resource to avoid jobs that access the same data to execute on the same time."
+
+
+NPDSAPR3#RLAUTA11 1 "Prevents RLAUTA11 jobs from running at the same time of ZCV2BMZE"
+
+
+NPDSAPR3#RRBDMDOC 1 "Prevents RBDMIDOC  from exec multiple instances at once"
+
+
+NPDSAPR3#RSREPORT 1 "RITM0183937"
+
+
+NPDSAPR3#RTERECON 10 "CHG0040061"
+
+
+NPDSAPR3#RTULSA-D 3 "Prevents ZTPSF397 from running w/ ZDOF397,ZDTF397,ZVNF397D"
+
+
+NPDSAPR3#RUBICON 1 "Resource for the Rubicon Project jobs."
+
+
+NPDSAPR3#RZCNSC16 8 "Prevents zcnsc16@ jobs from running with zcnscdlv"
+
+
+NPDSAPR3#RZENIDC1 1 "Prevents ZENIDOC3 from running multiple versions."
+
+
+NPDSAPR3#RZENIDC2 1 "Prevents ZENIDOC8 from running multiple versions"
+
+
+NPDSAPR3#RZENIDOC 1 "To prevent ZENIDOC6 from running multiple versions concurrently"
+
+
+NPDSAPR3#RZFNPRI 1 "To prevent ZFN@@PRI jobs from running at the same time"
+
+
+NPDSAPR3#RZFNPRO 1 "Prevents ZFNDDPRO-ZFNVNPRO-ZFNCSPRO from running together"
+
+
+NPDSAPR3#RZFNSCH 1 "Prevents ZFNDDSCH-ZFNCSSCH-ZFNVNSCH from running together"
+
+
+NPDSAPR3#RZWRMDOC 1 "Prevent ZWREPR01 from running multiple instances at one time"
+
+
+NPDSAPR3#SAPJOBS 70 "Total Number of SAP jobs that can run at one time on NPDSAPr3"
+
+
+NPDSAPR3#SCHEDJOB 1 "To prevent ZMNSC### Load Res Schedule jobs from running together"
+
+
+NPDSAPR3#SLEEPJBS 1 "Prevent crate counts from running simultaniosly"
+
+
+NPDSAPR3#SLNGSHT1 1 "Slingshot Project - CHG0035695"
+
+
+NPDSAPR3#SLNGSHT2 1 "Slingshot Project - CHG0035695"
+
+
+NPDSAPR3#SLNGSHT3 1 "Slingshot Project - CHG0035695"
+
+
+NPDSAPR3#SLNGSHT4 1 "Slingshot Project - CHG0035695"
+
+
+NPDSAPR3#SLNGSHT5 1 "Slingshot Project - CHG0035695"
+
+
+NPDSAPR3#SPAWNJOB 1 "avoid jobs ZVNBLB* running at the same time"
+
+
+NPDSAPR3#STPDF0 1 "Same as STPDF1 but also allows ZSC148XO and XQ to run together"
+
+
+NPDSAPR3#STPDF1 2 "Stops ZVNSFALL & ZSC148RDL from running together"
+
+
+NPDSAPR3#STPDF2 1 "Stops Sched NARZVNSE and job Z148DRL from running together"
+
+
+NPDSAPR3#TESTE 1 "Prevent ZCNSC28x job run at the same time as the ZQR*U job."
+
+
+NPDSAPR3#TRANSJOB 1 "Prevents ZFN1800A & ZFN1800B from running at the same time"
+
+
+NPDSAPR3#Z1800AJB 1 "Prevents ZFN1800A from running again until this one is done"
+
+
+NPDSAPR3#ZASN 1 "Intersystems"
+
+
+NPDSAPR3#ZC2SPROC 1 "CHG0142131"
+
+
+NPDSAPR3#ZCNEMGR 1 "Process goods receipts from 3.1 to Details"
+
+
+NPDSAPR3#ZCNMT310 1 "GE Early warning report"
+
+
+NPDSAPR3#ZCNOEMPO 1 "CHG0040698"
+
+
+NPDSAPR3#ZDEPPJOB 1 "allow job ZSDINVEPP run once a time"
+
+
+NPDSAPR3#ZDLST397 1 "Prevents ZDOF397 - ZDELDIST - ZCNLT397 from running together"
+
+
+NPDSAPR3#ZDTBO002 1
+
+NPDSAPR3#ZDTBO044 2 "Prevents ZDTF044-ZDOF044-ZVNF044D from running together"
+
+
+NPDSAPR3#ZDTBO045 2 "Prevents ZDTF045-ZDOF045-ZVNF045D from running together"
+
+
+NPDSAPR3#ZDTBO046 2 "Prevents ZDTR046-ZDOR046-ZVNR046D from running together"
+
+
+NPDSAPR3#ZDTBO048 2 "Prevents ZDTF048-ZDOF048-ZVNF048D from running together"
+
+
+NPDSAPR3#ZDTBO074 2 "Prevents ZDTF074-ZDOF074-ZVNF074D from running together"
+
+
+NPDSAPR3#ZDTBO076 2 "Prevents ZDTF076-ZDOF076-ZVNF076D from running together"
+
+
+NPDSAPR3#ZDTBO103 2 "Prevents ZDTF103-ZDOF103-ZVNF103D from running together"
+
+
+NPDSAPR3#ZDTBO105 2 "Prevents ZDTF105-ZDOF105-ZVNF105D from running together"
+
+
+NPDSAPR3#ZDTBO139 2 "Prevents ZDTF139-ZDOF139-ZVNF139D from running together"
+
+
+NPDSAPR3#ZDTBO182 2 "Prevents ZDTF182-ZDOF182-ZVNF182D from running together"
+
+
+NPDSAPR3#ZDTBO266 2 "PREVENT 266 jobs from running at one time"
+
+
+NPDSAPR3#ZDTBO267 2 "F267"
+
+
+NPDSAPR3#ZDTBO301 2 "zvnf3* jobs from running more than 2 at a time"
+
+
+NPDSAPR3#ZDTBO302 2 "zvnf3* jobs from running more than 2 at a time"
+
+
+NPDSAPR3#ZDTBO303 2 "zvnf3* jobs from running more than 2 at a time"
+
+
+NPDSAPR3#ZDTBO304 2 "zvnf3* jobs from running more than 2 at a time"
+
+
+NPDSAPR3#ZDTBO305 2 "zvnf3* jobs from running more than 2 at a time"
+
+
+NPDSAPR3#ZDTBO306 2 "Prevents ZDTF306-ZDOF306-ZVNF306D from running together"
+
+
+NPDSAPR3#ZDTBO307 2 "zvnf3* jobs from running more than 2 at a time"
+
+
+NPDSAPR3#ZDTBO308 2 "zvnf3* jobs from running more than 2 at a time"
+
+
+NPDSAPR3#ZDTBO309 2 "zvnf3* jobs from running more than 2 at a time"
+
+
+NPDSAPR3#ZDTBO311 2
+
+NPDSAPR3#ZDTBO314 2
+
+NPDSAPR3#ZDTBO315 2
+
+NPDSAPR3#ZDTBO316 2 "Prevents ZDTF316-ZDOF316-ZVNF316D from running together"
+
+
+NPDSAPR3#ZDTBO317 2 "Prevents ZDTF317-ZDOF317-ZVNF317D from running together"
+
+
+NPDSAPR3#ZDTBO318 2 "Prevents ZDTF318-ZDOF318-ZVNF318D from running together"
+
+
+NPDSAPR3#ZDTBO319 2 "Prevents ZDTF319-ZDOF319-ZVNF319D from running together"
+
+
+NPDSAPR3#ZDTBO320 2
+
+NPDSAPR3#ZDTBO321 2 "Prevents ZDTF321-ZDOF321-ZVNF321D from running together"
+
+
+NPDSAPR3#ZDTBO323 1
+
+NPDSAPR3#ZDTBO324 2 "Prevents ZDTF324-ZDOF324-ZVNF324D from running together"
+
+
+NPDSAPR3#ZDTBO325 2 "Prevents ZDTF325-ZDOF325-ZVNF325D from running together"
+
+
+NPDSAPR3#ZDTBO326 2 "Prevents ZDTF326-ZDOF326-ZVNF326 from running together"
+
+
+NPDSAPR3#ZDTBO327 2 "Prevents ZDTF327-ZDOF327-ZVNF327D from running together"
+
+
+NPDSAPR3#ZDTBO328 2 "Prevents ZDTF328-ZDOF328-ZVNF328D from running together"
+
+
+NPDSAPR3#ZDTBO329 2 "Prevents ZDTF329-ZDOF329-ZVNF329D from running together"
+
+
+NPDSAPR3#ZDTBO341 2 "Prevents ZDTF341..."
+
+
+NPDSAPR3#ZDTBO393 2 "Prevents ZDTF393-ZDOF393-ZVNF393D from running together"
+
+
+NPDSAPR3#ZDTBO397 2 "Prevents ZDTF397-ZDOF397-ZVNF397D from running together"
+
+
+NPDSAPR3#ZDTBO412 2
+
+NPDSAPR3#ZDTBO437 2
+
+NPDSAPR3#ZDTBO444 2 "Prevents ZDTF444-ZDOF444-ZVNF444D from running together"
+
+
+NPDSAPR3#ZDTBO447 2
+
+NPDSAPR3#ZDTBO608 2 "Prevents ZDTR608-ZDOR608-ZVNR608D from running together"
+
+
+NPDSAPR3#ZDTBO610 2 "Prevents ZDTR610-ZDOR610-ZVNR610D from running together"
+
+
+NPDSAPR3#ZDTBOM23 1
+
+NPDSAPR3#ZDTBOM24 2
+
+NPDSAPR3#ZDTBOM26 2
+
+NPDSAPR3#ZDTBOM29 2
+
+NPDSAPR3#ZEWMDIS 1
+
+NPDSAPR3#ZEWMID1 1
+
+NPDSAPR3#ZEWMID2 1
+
+NPDSAPR3#ZEWMID3 1
+
+NPDSAPR3#ZEWMOP1 1
+
+NPDSAPR3#ZEWMOP2 1
+
+NPDSAPR3#ZF18BJOB 1 "Prevents ZFNAR18B from running again until this one is done"
+
+
+NPDSAPR3#ZFNBLJOB 1 "Prevents targeted ZFN billing jobs from running together"
+
+
+NPDSAPR3#ZFNFI 1 "prevents ZFNFINPD and ZFNFIAP9 from running at the same time"
+
+
+NPDSAPR3#ZFNJOBS 1 "To prevent ZFNMPVUC VUU VVC VVU jobs from running together"
+
+
+NPDSAPR3#ZFNMR18A 1 "To prevent twice runs of ZFNMR18A"
+
+
+NPDSAPR3#ZINV01 1 "For this js ZINVEXTD01"
+
+
+NPDSAPR3#ZLGXID1 1 "for job ZNV_LGX_PROCESS_OB_30_IDOC  CHG0132670"
+
+
+NPDSAPR3#ZLGXID2 1 "for job ZNV_LGX_PROCESS_IB_64_IDOC  CHG0132671"
+
+
+NPDSAPR3#ZLGXID3 1 "for job ZNV_LGX_REPROCESS_IB_51_IDOC CHG0132672"
+
+
+NPDSAPR3#ZLREJAUD 1 "CHG0120869"
+
+
+NPDSAPR3#ZMILUMC 1 "CHG0130089 - CHG0137647"
+
+
+NPDSAPR3#ZMILUMIN 1 "avoid job ZMILUMIN run at the same time"
+
+
+NPDSAPR3#ZMILUMR 1 "CHG0130089 - CHG0137647"
+
+
+NPDSAPR3#ZMNASN 1 "CHG0008272"
+
+
+NPDSAPR3#ZMNPD 1 "CHG0038686"
+
+
+NPDSAPR3#ZNA24JOB 1
+
+NPDSAPR3#ZNMCORES 1 "Resource for some Polaris jobs"
+
+
+NPDSAPR3#ZNMFGMP5 1
+
+NPDSAPR3#ZNMFMH05 1
+
+NPDSAPR3#ZNMFMH20 1 "CHG0120056"
+
+
+NPDSAPR3#ZNMFMP05 1 "For ZNMFMP05_M314"
+
+
+NPDSAPR3#ZNMFPP01 4 "as per CHG0029740 - quantity from 1 to 4"
+
+
+NPDSAPR3#ZNMFPP03 1 "Polaris Findlay - Collective backflu"
+
+
+NPDSAPR3#ZNMFPRM0 1 "CHG0121507"
+
+
+NPDSAPR3#ZNR24JOB 1
+
+NPDSAPR3#ZRMBFLU 1 "ZPRDM022, ZRMSERMX, ZRMSERSP and ZRMSML20 one at a time and PP"
+
+
+NPDSAPR3#ZSPDMCSA 1 "Recurso do job ZSPDMCSA"
+
+
+NPDSAPR3#ZTHDA 1
+
+NPDSAPR3#ZVERTE10 1 "allow job ZVERTE10 run one per time CHG0141816"
+
+
+NPDSAPR3#ZVNBLJBS 2 "Prevents ZVNARCBL-ZVNR01RS from running with ZVNBL00B"
+
+
+NPDSAPR3#ZVNDOR 1 "ZVNR422D ZVNR422S ZVNR422L ZVNR422H & ZDOR422 don't run togethe"
+
+
+NPDSAPR3#ZVNHDEL1 1
+
+NPDSAPR3#ZVNI201S 1 "allow a single execution for job ZVNI201S per time"
+
+
+NPDSAPR3#ZVNJOBS 30 "Number of ZVN_#### jobs that can run at once  ZFNBARDB uses all"
+
+
+NPDSAPR3#ZVNR421 1 "Prevents ZVNR421* Jobs from running together"
+
+
+NPDSAPR3#ZVNR422 1 "Prevents ZVNR422* Jobs from running together"
+
+
+NPDSAPR3#ZVNR430D 1 "Prevents hourly run of ZVNR430H& D from running at the same time"
+
+
+NPDSAPR3#ZVNY4BL0 1 "Prevents ZVNBL01D and ZVNY4OM1 from running at the same time"
+
+
+NPDSAPR3#ZVTXCRC 1
+
+NPDSAPR3#ZVTXMSB 1
+
+NPDSAPR3#ZVTXPROT 1
+
+NPDSP2R3#REORGSPL 1 "prevents job reorgspool from running 2 at once"
+
+
+SAPHRP1#ZMXT 2 "Resources for Schedules ZMXTMOM*"
+
+
+SAPHRP1#ZPCCEVH0 1 "avoid job ZPCCEVH00 running at the same time RITM0206274"
+
+
+SAPHRP1#ZUSBN 5 "Allows only 5 ZUSBN jobs to execute at one time"
+
+
+SAPHRP1#ZUSTM 5 "Allows only 5 ZUSTM jobs to execute at one time"
+
+
+THEMASTER#NPDORDSP 1 "CHG0100459"
+
+
+THEMASTER#PSACRIT 1
+
+THEMASTER#SLEEPJBS 1
+
+THEMASTER#SPPMASS 1
+
+THEMASTER#ZAND 1 "Makes the ZAND* jobs not running at the same time"
+
+
+THEMASTER#ZNHDMS 1 "CHG0146866"
+
+
+THEMASTER#ZVNAUTH 1
+
+THEMASTER#ZVNAUTH3 1
+
+UCPSAPR3-PL#SAPCRM01 1 "avoid job on schedule SAPCRM01 running at the same time"
+
+
+UCPSAPR3-PL#UCPCRM01 1 "RITM0201851"
+
+
+UCPSAPR3-PL#UCPCRM10 1 "Resource defined to allow only 1 ZNACRM10A ro run - runs every 6 hours"
+
+
+UP1SAPR3#SPP_MAS 1 "Resource for Slingshot Project - CHG0036574"
+
+
+UP1SAPR3#SPP_SOL 1 "Slingshot Project - CHG0036574"
+
+
+ZHNPDACI#ZINV02 1
+
